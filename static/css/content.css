@@ -1,0 +1,226 @@
+/*重新定义index页面的文字的颜色、字号*/
+.news .left {
+	padding: 30px;
+	width: 714px;
+}
+.news .left h3 {
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.news .artinfo,.news .left .desc {
+	font-size: 16px;
+}
+
+.news .artinfo span ,.news .left .desc{
+	color: #999;
+}
+.news .left .desc,.news .left .content{
+	line-height: 2em;
+}
+
+.news .left .artinfo {
+	padding-bottom: 25px;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.news .left .content {
+	font-size: 16px;
+}
+/*设置每个段落前的文字缩进*/
+.news .content p {
+	text-indent: 2em;
+}
+
+.news .content img {
+	float: none;
+	/* auto 表示让图片恢复原来的尺寸 */
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+
+.news .contentimg {
+	width: 714px;
+	text-align: center;
+}
+
+/*版权声明S*/
+.news .bqsm {
+	margin-top: 55px;
+	color:#666;
+	font-size: 14px;
+}
+
+.news .bqsm  h4{
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+.news .bqsm  p {
+	color:#999;
+	line-height: 0.5em;
+}
+/*版权声明E*/
+
+/*阅读量S*/
+.news .left .ydl {
+	height: 50px;
+	width: 714px;
+	margin-top: 50px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 50px;
+}
+.news .ydl .yleft {
+	width: 150px;
+	height: 100%;
+	float: left;
+}
+.news .ydl .yright {
+	width: 200px;
+	height: 100%;
+	float: right;
+}
+
+.news .yleft span {
+	color: red;
+}
+/*阅读量E*/
+
+/*文章分享S*/
+.news .share {
+	height: 276px;
+	border-top: 1px solid #f0f0f4;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.news .share .sleft {
+	width: 400px;
+	height: 100%;
+	float: left;
+}
+
+/*恢复图片默认的尺寸*/
+.news .share img {
+	width: auto;
+	height: auto;
+	float: none;
+}
+.news .share p {
+	margin-top: 70px;
+}
+
+.news .share a:hover {
+	/*设置对象的透明度*/
+	opacity: 0.7;
+}
+
+.news .share .sright {
+	padding-top: 20px;
+	width: 205px;
+	height: 134px;
+	float: right;
+	border: 1px solid #f0f0f4;
+	margin-top: 61px;
+	margin-right: 50px;
+	/*设置文本对齐*/
+	text-align: center;
+	/*设置定位，协助子元素设置手机小图标*/
+	position: relative;
+}
+
+.news .sright span {
+	font-size: 12px;
+	color:#999;
+}
+
+.news .sright .hat {
+	position: absolute;
+	top: -10px;
+	left: -1px;
+}
+
+/*文章分享E*/
+
+/*右侧作家列表S*/
+.authornews {
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+.authornews .info {
+	height: 70px;
+	background-color: #fbfbfb;
+	border-bottom: 1px solid #f6f6f6;
+	padding: 20px;
+
+}
+
+.authornews .info img {
+	float: left;
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	margin-right: 15px;
+}
+
+.authornews .info a {
+	font-size: 20px;
+}
+
+.authornews .info p {
+	color: #999;
+	margin-top:10px;
+
+	display: inline-block;
+	width: 140px;
+}
+
+
+/*
+  右上角的文章列表显示问题
+ */
+.authornews .artlist {
+	padding: 20px;
+}
+
+.authornews .artlist li {
+	margin:10px 0px;
+}
+
+.authornews li a {
+	font-size: 16px;
+	display: inline-block;
+	width: 268px;
+
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+/*
+
+  列表前的小圆点
+ */
+.authornews li span {
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #ddd;
+
+	border-radius: 3px;
+	margin-right: 17px;
+	vertical-align: middle;
+	margin-bottom: 7px;
+}
+
+.authornews li:last-child {
+	margin-left: 25px;
+}
+
+.authornews li:last-child a {
+	color:#999;
+}
+/*右侧作家列表E*/

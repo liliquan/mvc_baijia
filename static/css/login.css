@@ -1,0 +1,152 @@
+/*登录页面相关的css样式*/
+/*设置body的样式*/
+body {
+	color: #535353;
+	/*简写*/
+	font:12px/1.5em "微软雅黑";
+}
+
+/*设置超链接默认（蓝色）的颜色*/
+a {
+	color: #535353;
+}
+
+/*当鼠标放到超链接上的时候（:hover）设置一个样式*/
+a:hover {
+	color: #00a0e9;
+}
+/*顶部logo header S*/
+.header {
+	padding: 50px 0px;
+	height: 50px;
+}
+.header .logo {
+	float: left;
+}
+.header .right {
+	float: right;
+}
+.header .right img {
+	margin-top: 18px;
+}
+
+/*顶部logo header E*/
+
+/*主体main S*/
+.main {
+	height: 600px;
+	background-color: #00a0e9;
+}
+.main .left {
+	width: 600px;
+	height: 600px;
+	float: left;
+}
+
+.main .left img {
+	margin-top: 11px;
+}
+
+/*设置右侧盒子*/
+
+.main .right {
+	width: 340px;
+	height: 360px;
+	float: right;
+	background-color: #ecf9ff;
+	margin-top: 90px;
+	/*设置内边距*/
+	padding: 30px;
+}
+
+.main .right h2 {
+	font-size: 23px;
+	font-weight: normal;
+	margin-bottom: 44px;
+}
+
+
+.main .username input,.main .password input {
+	width: 270px;
+	height: 44px;
+	border: 1px solid #cdcdcd;
+	margin-bottom: 40px;
+	padding-left: 15px;
+	float: left;
+	font-size: 16px;
+}
+
+.main .username div,.main .password div {
+
+	width: 46px;
+	height: 46px;
+	background-color: #e2e2e4;
+	/*border: 1px solid #cdcdcd;*/
+	border-color: #cdcdcd;
+	border-style: solid;
+	border-width: 1px 0px 1px 1px;
+	/*把div转换为行级块*/
+	display: inline-block;
+	float: left;
+	/*让 i 元素水平居中*/
+	text-align:center;
+	/*让 i 垂直居中*/
+	line-height: 46px;
+}
+
+.main .username .tb-member {
+
+	/*给i的显示模式转换为 inline-block*/
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background:url(../images/login.png) no-repeat 0px -3px;
+
+}
+
+.main .password .tb-lock {
+
+	/*给i的显示模式转换为 inline-block*/
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background:url(../images/login.png) no-repeat -28px -3px;
+
+}
+
+/*设置记住密码框的大小*/
+.main .remember input {
+	width: 15px;
+	height: 15px;
+}
+
+/*设置登录按钮*/
+.main .loginbtn input {
+
+	margin-top: 40px;
+	width: 340px;
+	height: 45px;
+	background-color: #00a0e9;
+	/*设置没有边框*/
+	border: 0px;
+	font-size: 18px;
+	color:#fff;
+}
+
+/*主体main E*/
+
+ /*底部footer S*/
+ .lfooter {
+ 	height: 150px;
+ 	margin-top: 25px;
+ }
+
+ .lfooter .left {
+ 	float: left;
+ }
+
+ .lfooter .right {
+ 	float: right;
+ }
+
+ /*底部footer E*/

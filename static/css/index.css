@@ -1,0 +1,170 @@
+/*重新定义index页面的文字的颜色、字号*/
+
+/*百家号首页百家争鸣bjzm 部分 S */
+.bjzm {
+	height: 340px;
+	margin-top: 21px;
+}
+
+.bjzm .left{
+	width: 774px;
+	float: left;
+	position: relative;
+}
+
+
+/*设置图片大小*/
+.bjzm .left img {
+	width: 774px;
+	height: 340px;
+}
+
+.bjzm .left .textbox{
+	width: 744px;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	background-color: rgba(0,0,0,0.5);
+
+	/*设置文字样式*/
+	font-size: 20px;
+	color:#fff;
+	line-height: 50px;
+	padding-left: 30px;
+}
+
+.bjzm .left .circle {
+	height: 50px;
+	width: 75px;
+	position: absolute;
+
+	/*位置*/
+	bottom: 0px;
+	right: 20px;
+	/*设置行高*/
+	line-height: 50px;
+}
+
+.bjzm .circle a {
+	/*显示模式为inline-block*/
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: #666;
+	/*变成小圆点*/
+	border-radius: 5px;
+	margin-left: 5px;
+}
+
+.bjzm .circle .active {
+	background-color: #fff;
+}
+
+/*定义百家争鸣右侧盒子的样式*/
+.bjzm .right {
+	width: 344px;
+	float: right;
+	position: relative;
+}
+
+.bjzm .right .vsbox {
+	width: 344px;
+	height: 340px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.bjzm .right .bgimg {
+	width: 344px;
+	height: 340px;
+}
+
+/*往期专题*/
+.bjzm .right .wqzt {
+	height: 30px;
+	text-align: right;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+.bjzm .wqzt a {
+	color:#fff;
+}
+
+.bjzm .right .bjzmimg {
+	height: 70px;
+	margin-top: 25px;
+	text-align: center;
+}
+.bjzm .bjzmimg img {
+	width: 180px;
+}
+/*修改标题*/
+.bjzm .vsbox h2 {
+	color:#fff;
+	font-size: 23px;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.bjzm .right .duibi {
+	height: 90px;
+	width: 340px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 0px;
+}
+
+/*设置对比盒子左右的数字子盒子*/
+.bjzm .duibi .fl,.bjzm .duibi .fr {
+	height: 60px;
+	width: 65px;
+	position: absolute;
+	padding-top:30px;
+	text-align: center;
+	color:#fff;
+	font-size: 16px;
+}
+
+.bjzm .duibi .fl {
+	left: 10px;
+}
+
+.bjzm .duibi .fr {
+	right: 5px;
+}
+
+.bjzm .duibi .line {
+	height: 7px;
+	width: 185px;
+	background-color: #ff6360;
+	position: absolute;
+	left: 80px;
+	top: 50%;
+	margin-top: -3.5px;
+}
+
+.bjzm .duibi .vsimg {
+	width: 28px;
+	height: 18px;
+	position: absolute;
+	top: 17px;
+	left: 160px;
+}
+
+.bjzm .duibi span {
+	font-size: 25px;
+}
+
+.bjzm .duibi .blueline {
+	height: 7px;
+	background-color: #71a0ff;
+	width: 25%;
+	float: right;
+}
+
+/*百家号首页百家争鸣bjzm 部分 E */

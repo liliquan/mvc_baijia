@@ -1,0 +1,123 @@
+/*重新定义index页面的文字的颜色、字号*/
+
+
+/*作家页banner S*/
+.banner {
+	height: 240px;
+	background: url(../images/follow-list-banner_64cda64.png) no-repeat center bottom;
+}
+/*作家页banner E*/
+
+/*作家信息展示 S*/
+.author {
+	height: 170px;
+	/*让盒子整体向上移动，压在banner图片上*/
+	margin-top: -50px;
+}
+
+.author .headimg {
+	background-color: #fff;
+	padding: 8px;
+	width: 154px;
+	height: 154px;	
+	float: left;
+	border-radius: 85px;
+	margin-right: 20px;
+}
+
+.author .headimg img {
+	width: 154px;
+	height: 154px;
+	border-radius: 77px;
+
+}
+.author .name {
+	font-size: 20px;
+	margin-top: 78px;
+	margin-bottom: 15px;
+}
+.author .jieshao {
+	font-size: 16px;
+}
+
+.author .container {
+	overflow: hidden;
+}
+/*作家信息展示 E*/
+
+
+
+/*调整文章列表显示内容S*/
+.news .container,.viewbox {
+	padding-left: 210px;
+}
+
+.news .tj {
+	font-size: 16px;
+	margin-bottom: 25px;
+	margin-top: 75px;
+}
+
+.news .tj span {
+	color:#fc6464;
+}
+
+
+
+/*竖线样式S*/
+
+.news .container {
+	overflow: hidden;
+	position: relative;
+}
+
+.news .line {
+	width: 1px;
+	height: 9999px;
+	background-color: #ccc;
+	position: absolute;
+	left: 147px;
+}
+
+.news {
+	margin-top: 0px;
+}
+
+/*竖线样式E*/
+
+
+/*添加发布日期*/
+.news .date {
+	font-size: 20px;
+	position: absolute;
+	left: 53px;
+	color: #666;
+
+}
+.news .days {
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	background-color: #f2f2f2;
+	color: #999;
+	text-align: center;
+	line-height: 42px;
+	border-radius: 21px;
+	border:1px solid #dcdcdc;
+}
+
+.news .hidden-yes {
+	visibility: hidden;
+}
+
+/*增加空白li，用于分隔日期*/
+.news .left .space {
+	border-bottom: none;
+	background-color: #f2f2f2;
+	height: 20px;
+	width: 774px;
+	margin-top: -22px;
+	margin-left: -20px;
+}
+
+/*调整文章列表显示内容E*/

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>成为作家（STEP1）</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/login.css">
+	<script src="js/jquery.min.js"></script>
+	<style>
+		.text1{	
+			font-size: 10px;		
+		}
+	</style>
+	<script>
+		$(function(){
+			$(".loginbtn").click(function(){
+				if(!$("#xieyi1").is(":checked")){
+					alert("请已阅读并同意百家号平台服务协议!");
+				}else if(!$("#xieyi2").is(":checked")){
+					alert("请已阅读并同意内容联盟交易平台注册协议!");
+				}else{
+					location.href="register_step3.php?type="+this.alt;
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+<div class="superlogin"></div>
+<div class="loginBox">
+	<div class="resetpsw">成为作家</div>
+	<div class="stepBar">
+		<img src="images/login_step_1.png">
+	</div>
+	<div class="loginMain loginMain2" style="width: 80%">
+		<div class="tabwrap">
+		<table border="0" width="100%" cellspacing="0" cellpadding="0">
+			<tbody>
+			<tr>
+			  <td><i class="ico-error"></i><span class="errorword">STEP1 选择类型：</span>
+		      <p>&nbsp;</p></td></tr>
+			<tr><td class="title2">
+				
+			  <table width="100%" align="center" border="0">
+  <tbody>
+    <tr>
+      <td width="20%" align="center"><img src="images/choose-type-personal_5f31338.png" width="44" height="44" alt=""/></td>
+      <td width="20%" align="center"><img src="images/choose-type-media_f55195b.png" width="44" height="44" alt=""/></td>
+      <td width="20%" align="center"><img src="images/choose-type-company_f1b78f7.png" width="44" height="44" alt=""/></td>
+      <td width="20%" align="center"><img src="images/choose-type-govt_a8bd3c6.png" width="44" height="44" alt=""/></td>
+      <td align="center"><img src="images/choose-type-other_2ed0ce2.png" width="44" height="44" alt=""/></td>
+    </tr>
+    <tr>
+      <td width="20%" height="32" align="center">个人</td>
+      <td width="20%" align="center">媒体</td>
+      <td width="20%" align="center">企业</td>
+      <td width="20%" align="center">政府</td>
+      <td align="center">其他组织</td>
+    </tr>
+    <tr>
+      <td width="20%" height="114" align="center" class="text1">个人身份申请，适合垂直领域的专家、意见领袖、评论家、自媒体人士及站长申请</td>
+      <td width="20%" align="center" class="text1">有媒体资质的网站、报刊杂志、电台、电视台等申请</td>
+      <td width="20%" align="center" class="text1">公司、分支机构等类型的组织申请</td>
+      <td width="20%" align="center" class="text1">国内外国家政府机构、事业单位、参公管理的社团组织等申请</td>
+      <td align="center" class="text1">各类公共场馆、公益机构、学校、社团、民间组织等机构团体申请</td>
+    </tr>
+    <tr>
+      <td width="20%" align="center"><input type="button" class="loginbtn" value="下一步" alt="个人"></td>
+      <td width="20%" align="center"><input type="button" class="loginbtn" value="下一步" alt="媒体"></td>
+      <td width="20%" align="center"><input type="button" class="loginbtn" value="下一步" alt="企业"></td>
+      <td width="20%" align="center"><input type="button" class="loginbtn" value="下一步" alt="政府"></td>
+      <td align="center"><input type="button" class="loginbtn" value="下一步" alt="其他组织"></td>
+    </tr>
+  </tbody>
+</table></td></tr>
+			<tr class="errortd"><td><br><br>
+				<input type="checkbox" value="1" name="xieyi1" id="xieyi1">我已阅读并同意百家号平台服务协议<br>
+ 				<input type="checkbox" value="1" name="xieyi2" id="xieyi2">我已阅读并同意内容联盟交易平台注册协议
+				</td></tr>		
+					
+		</tbody></table>
+		</div>
+	</div>
+</div>
+<div class="footer">Copyright © 2010-2015 uimaker  All Rights Reserved.</div>
+
+
+</body></html>

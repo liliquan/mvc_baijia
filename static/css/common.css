@@ -1,0 +1,404 @@
+/*common.css用于所有页面公用的一些css样式*/
+body {
+	color: #333;
+	font:12px/1.5em "微软雅黑";
+	background-color: #f2f2f2;
+}
+/*重新定义超链接的颜色(a)*/
+a {
+	color: #333;
+}
+
+/*重新定义鼠标移动到超链接上的样式（:hover）*/
+a:hover {
+	color: #0047ff;
+}
+
+/*============================*/
+
+/*居中的盒子 container*/
+.container {
+	width: 1142px;
+	margin:0px auto;
+}
+
+/*清除浮动*/
+/*双清*/
+.clearfix:before,.clearfix:after{
+	content: ".";
+	height: 0px;
+	line-height: 0px;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+/*兼容性*/
+.clearfix {
+	*zoom: 1;
+}
+
+.color-pink {
+	background-color: pink;
+	height: 100%;
+}
+
+.color-skyblue {
+	background-color: skyblue;
+	height: 100%;
+}
+
+.color-gray {
+	background-color: #ccc;
+	height: 100%;
+}
+
+.color-green {
+	background-color: #0f0;
+	height: 100%;
+}
+
+
+
+/*把内容页、作家页、首页公共的样式放到下面*/
+
+/*百家号首页header 部分 S */
+.header {
+	height: 92px;
+	background-color: #fff;
+
+	/*边框*/
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.header .left {
+	margin-top: 30px;
+	width: 774px;
+	float: left;
+	height: 62px;
+}
+
+.header .right {
+	width: 280px;
+	float: right;
+}
+
+.header .left img{
+	width: 140px;
+	vertical-align: middle;
+}
+
+.header .left a {
+	font-size: 18px;
+	margin-left: 50px;
+}
+
+.header .left a:hover,.header .left .active{
+	border-bottom: 2px solid #0047ff;
+	padding-bottom: 5px;
+}
+
+.header .right a {
+	color:#999;
+	margin-left: 30px;
+}
+
+/*百家号首页header 部分 E */
+
+
+
+/*百家号首页新闻列表news 部分 S */
+
+.news {
+	margin-top: 20px;
+}
+
+.news .left {
+	width: 734px;
+	height: 100%;
+	background-color: #fff;
+	float: left;
+	padding: 20px;
+}
+
+
+.news .left img {
+	width: 180px;
+	height: 120px;
+	float: left;
+	margin-right: 3px;
+}
+
+.news .left h3 {
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+
+.news .left p {
+	margin-top: 10px;
+	margin-bottom:15px;
+}
+
+.news .left li {
+	border-bottom: 1px solid #eaeaea;
+	margin-bottom: 20px;
+}
+
+
+/*去除最后要给li的底线*/
+
+.news .left li:last-child {
+	border-bottom: none;
+	margin-bottom: 0px;
+}
+
+/*设置只有一张图片的li的效果*/
+.news  .singleimg img {
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.news .singleimg h3 {
+	margin-top: 40px;
+}
+
+
+.news .left .more {
+	display: inline-block;
+	width: 180px;
+	height: 120px;
+	text-align: center;
+	line-height: 120px;
+	background-color: #e8e8e8;
+	font-size: 16px;
+	color:#acacac;
+}
+
+.news .left .more:hover {
+	background-color: #c6c6c6;
+}
+
+
+/* 新闻列表右侧样式代码*/
+.news .right {
+	width: 344px;
+	float: right;
+}
+
+/*给文章排行列表添加一个下外边距*/
+.artph {
+	margin-bottom: 20px;
+}
+
+/*右侧文章排行的样式*/
+.artph h3 {
+	font-size: 19px;
+	height: 57px;
+	background-color: #fbfbfb;
+	border-bottom: 1px solid #f2f2f2;
+	padding: 0px 20px;
+	line-height: 57px;
+	font-weight: normal;
+}
+
+.artph .artlist {
+	padding: 0px 20px;
+	padding-bottom: 10px;
+}
+
+.artph .artbtn a {
+	display: inline-block;
+	height: 42px;
+	font-size: 16px;
+	width: 49%;
+	text-align: center;
+	line-height: 42px;
+}
+
+.artph .artbtn .active {
+	border-bottom: 2px solid #1b64f8;
+}
+
+.artph ul li {
+	margin: 30px 0px;
+	font-size: 16px;
+}
+
+.artph .artlist .title {
+	display: inline-block;
+	width: 195px;
+	/*超出部分隐藏*/
+	overflow: hidden;
+	/*不换行*/
+	white-space: nowrap;
+	/*超出的部分使用...*/
+	text-overflow: ellipsis;
+	margin-left: 15px;
+}
+
+.artph .artlist span {
+	font-size: 16px;
+	color:#999;
+	vertical-align: top;
+}
+
+.artph .artlist .author {
+	font-size: 14px;
+	color:#999;
+	float: right;
+}
+
+.artph .artlist .num1 {
+	color:#fff;
+	background-color: #ff6360;
+	padding: 3px 6px;
+}
+
+.artph li:first-child a {
+	font-size: 20px;
+	display: inline-block;
+	width: 255px;
+	line-height: 1.5em;
+	margin-left: 10px;
+}
+
+.artph .artlist .desc {
+	display: inline-block;
+	margin-left: 35px;
+	margin-top: 10px;
+	width: 255px;
+
+	/*显示两行，并且内容超出后显示省略号*/
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+
+
+}
+
+.artph {
+	background-color: #fff;
+}
+
+.notice {
+	margin-top: 20px;
+	height: 160px;
+}
+
+/*百家号首页百家列表news 部分 E */
+
+/*百家号首页新闻更多morenews 部分 S */
+.viewmore {
+	width: 774px;
+	height: 46px;
+	margin-top: 20px;
+	background-color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 46px;
+}
+/*百家号首页百家列表morenews 部分 E */
+
+/*百家号首页footer 部分 S*/
+.footer {
+	height: 158px;
+	background-color: #fff;
+	margin-top: 20px;
+	border-top: 1px solid #dfdfdf;
+	text-align: center;
+}
+
+.footer .textbox {
+	font-size: 18px;
+	margin-top: 48px;
+	margin-bottom: 36px;
+}
+/*百家号首页footer 部分 E */
+/*二维码开始S */
+.qrcodebox {
+	height: 0px;
+	background-color: red;
+	/*固定定位*/
+	position: fixed;
+	bottom: 0px;
+}
+
+.qrcodebox .box {
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	right: -120px;
+	top:-150px;
+}
+
+.qrcodebox .qrcode,.qrcodebox .topindex {
+
+	width: 48px;
+	height: 48px;
+	background-color: #b7bac5;
+	margin-bottom: 5px;
+}
+
+/*当鼠标放到盒子上背景颜色变化*/
+.qrcodebox .qrcode:hover,.qrcodebox .topindex:hover {
+	background-color: #333;
+
+}
+
+.qrcodebox .topindex {
+	text-align: center;
+	line-height: 48px;
+}
+
+.qrcodebox .qrcode {
+	background-image: url(../images/icon-baijia-addr_ae3b9c9.png);
+	background-position: 0px -48px;
+}
+
+.qrcodebox .qrcode:hover {
+	background-position: 0px 0px;
+}
+
+/*让sm子盒子显示*/
+.qrcodebox .qrcode:hover .sm {
+	display: block;
+}
+
+.qrcodebox .qrcode .sm {
+
+	width: 308px;
+	height: 108px;
+	border:1px solid #ddd;
+	position: absolute;
+	bottom: 51px;
+	right: 56px;
+	background-color: #fff;
+	padding: 30px 30px 15px 30px;
+	display: none;
+}
+
+.qrcodebox .sm img {
+	float: left;
+	margin-right: 30px;
+}
+
+.qrcodebox .sm h3 {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.qrcodebox .sm ul {
+	list-style-type: disc;
+	position: absolute;
+	top: 55px;
+	left: 173px;
+	font-size: 14px;
+	color:#666;
+}
+
+.qrcodebox .sm li {
+	margin: 5px 0px;
+}
+
+/*二维码开始E

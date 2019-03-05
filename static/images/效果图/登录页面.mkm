@@ -1,0 +1,23 @@
+<MKM version="2.0" imageFileUrl="file:///C:/Users/liwei/Desktop/images/%e7%99%bb%e5%bd%95%e9%a1%b5%e9%9d%a2.png">
+  <Marks>
+    <LengthMark direction="3" color="16711680" length="150" x="794" y="0"/>
+    <LengthMark direction="12" color="16711680" length="226" x="952" y="62"/>
+    <LengthMark direction="12" color="16711680" length="1600" x="0" y="129"/>
+    <LengthMark direction="3" color="16711680" length="45" x="233" y="105"/>
+    <LengthMark direction="12" color="16711680" length="30" x="1000" y="355"/>
+    <LengthMark direction="3" color="16711680" length="33" x="1060" y="240"/>
+    <LengthMark direction="3" color="16711680" length="42" x="1082" y="291"/>
+    <LengthMark direction="3" color="16711680" length="44" x="1264" y="334"/>
+    <LengthMark direction="12" color="16711680" length="340" x="1030" y="378"/>
+    <LengthMark direction="12" color="16711680" length="294" x="1075" y="349"/>
+    <LengthMark direction="12" color="16711680" length="44" x="1031" y="340"/>
+    <RectMark color="16711680" x="999" y="241" offsetX="0" offsetY="0"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="41193" offsetX="25" offsetY="10" x="1141" y="187"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="14869220" offsetX="25" offsetY="10" x="1065" y="430"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="13487565" offsetX="25" offsetY="10" x="1254" y="419"/>
+    <ColorMark defaultDirection="9" colorSystem="hex" direction="9" color="16711680" targetColor="10462374" offsetX="25" offsetY="10" x="1035" y="614"/>
+    <LengthMark direction="3" color="16711680" length="27" x="352" y="750"/>
+    <LengthMark direction="3" color="16711680" length="40" x="1077" y="508"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="1036" y="497" textMaxWidth="100" offsetX="25" offsetY="10" text="这个复选框有点大"/>
+  </Marks>
+</MKM>

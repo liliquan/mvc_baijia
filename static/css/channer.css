@@ -1,0 +1,81 @@
+
+/*右侧作家列表S*/
+.authornews {
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+
+.authornews .info {
+	height: 70px;
+	background-color: #fbfbfb;
+	border-bottom: 1px solid #f6f6f6;
+	padding: 20px;
+
+}
+
+.authornews .info img {
+	float: left;
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	margin-right: 15px;
+}
+
+.authornews .info a {
+	font-size: 20px;
+}
+
+.authornews .info p {
+	color: #999;
+	margin-top:10px;
+
+	display: inline-block;
+	width: 140px;
+}
+
+
+/*
+  右上角的文章列表显示问题
+ */
+.authornews .artlist {
+	padding: 20px;
+}
+
+.authornews .artlist li {
+	margin:10px 0px;
+}
+
+.authornews li a {
+	font-size: 16px;
+	display: inline-block;
+	width: 268px;
+
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+/*
+
+  列表前的小圆点
+ */
+.authornews li span {
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: #ddd;
+
+	border-radius: 3px;
+	margin-right: 17px;
+	vertical-align: middle;
+	margin-bottom: 7px;
+}
+
+.authornews li:last-child {
+	margin-left: 25px;
+}
+
+.authornews li:last-child a {
+	color:#999;
+}
+/*右侧作家列表E*/

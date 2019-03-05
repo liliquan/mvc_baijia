@@ -1,0 +1,23 @@
+/*reset.css文件的作用是清除标签的一些默认的样式*/
+
+/*清除标签的默认边距问题*/
+body,p,ul,ol,li,h1,h2,h3,h4,h5,h6,table,tr,td {
+
+	padding: 0px;
+	margin: 0px;
+}
+
+/*超链接的默认的下划线*/
+a {
+	text-decoration: none;
+}
+
+/*清除列表的默认的小圆点*/
+ul {
+	list-style: none;
+}
+
+/*清除图片底部默认的缝隙*/
+img {
+	vertical-align: middle;
+}
